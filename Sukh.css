@@ -1,0 +1,886 @@
+/* ----change of color scheme to Purple
+light purple - #f4b6fc;
+darker purple - #ea75f9; 
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*-------------Main Page----------*/
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url(../Resources/SukhImg/london-skyline.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 15px;
+  right: 0;
+  padding: 11px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #3c6ccd;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #3c6ccd;
+  font-weight: 500;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #5780d4;
+    text-shadow: -4px -4px 0 #ffffff,
+    2px -2px 0 #ffffff,
+    -2px 2px 0 #ffffff,
+    2px 2px 0 #ffffff;
+}
+
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 55px;
+    font-style: normal;
+    line-height: 40px;
+    margin-bottom: 15px;
+    font-family: 'Calligraffitti', cursive; 'Droid Serif', 'Helvetica Neue';
+    font-weight: 600;
+    text-shadow: -4px -4px 0 #3c6ccd,
+    2px -2px 0 #3c6ccd,
+    -2px 2px 0 #3c6ccd,
+    2px 2px 0 #3c6ccd;
+  }
+
+.btn-primary {
+  background-color: #5780d4;
+  border-color: white;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #3c6ccd !important;
+  border-color: white;
+  color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 204, 0.5) !important;
+}
+
+#services, #about, #portfolio {
+    background-color: #5780d4;
+}
+
+.menu-links {
+    font-family: 'Signika Negative', sans-serif;
+    font-size-adjust: auto;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: -2px -2px 0 #212529,
+    1px -1px 0 #212529,
+    -1px 1px 0 #212529,
+    1px 1px 0 #212529;
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+/*----------About section-----------*/
+
+h2, h3 {
+    color: #dce1e3;
+}
+
+.about-quote {
+    color: #dce1e3;
+}
+
+.quotes {
+    padding-top: 0;
+    color: #dce1e3;
+}
+
+.personal-profile {
+    padding-left: 30%;
+    float: right;
+    height: -20px;
+    width: -20px;
+}
+
+.bio {
+    text-align: left;
+    float: left;
+    color: #dce1e3;
+    padding-right: 250%;
+}
+
+/*---------Technical skills section --------*/
+
+section#team .section-heading, .section-subheading, .quotes {
+    color: #5780d4;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 11px solid #5780d4;
+    transition: transform 0.2s,
+}
+
+.team-member img:hover {
+    transform: scale(1.15);
+}
+
+section#team {
+    background-color: #dce1e3;
+}
+
+.jim-rohn {
+    padding-top: 0;
+}
+
+/*---------Work Experience Section-----------*/
+
+section#about .section-subheading, .quotes {
+    color: #dce1e3;
+}
+
+.timeline-heading, .timeline-body, .timeline-image {
+    color: #dce1e3;
+}
+
+.timeline > li .timeline-image {
+  color: white;
+  border: 9px solid #3c6ccd;
+  border-radius: 100%;
+  background-color: #dce1e3;
+}
+
+.timeline-image #further-work {
+    color: #5780d4;
+}
+
+.timeline-image {
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+/*---------Education------------*/
+
+section#education {
+    background-color: #dce1e3;
+}
+
+#education h2 {
+    color: #5780d4;
+}
+
+.quote-education {
+    padding: 0;
+}
+
+.education-profile {
+    margin: auto;
+    float: right;
+    padding-right: 5%;
+}
+
+.degrees {
+    text-align: left;
+    margin-right: 25%;
+    float: left;
+    display: block;
+    font-size: 18px;
+    color: #5780d4;
+}
+
+/*---------Portfolio Section-------------*/
+
+.will-smith, .quote-portfolio {
+    color: #dce1e3;
+}
+
+.quote-portfolio {
+    padding: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(138, 173, 240, 0.87);
+}
+
+#modal1Pic{
+    width: 400px;
+}
+
+
+/*---------Contact Us-------------*/
+
+section#contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Resources/SukhImg/monaco-grey.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 90vh;
+}
+
+.rocks-quote, .quote-contact {
+    color: white;
+}
+
+.quote-contact {
+    padding: 0;
+}
+
+.contact-head {
+    margin-left: 37.5%;
+}
+
+.phone-number, .email, .CV, .LinkedIn, .github {
+    color: #5780d4;
+    margin-bottom: 0;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: left;
+}
+
+.LinkedIn a, .github a, .email a, .phone-number a {
+	color: #5780d4;
+	text-decoration: none;
+}
+
+.contact-details {
+	text-align: left;
+    color: #5780d4;
+	float: right;
+	display: block;
+	position: absolute;
+	height: 20vh;
+}
+
+.contact-head h2{
+  font-weight: 900;
+  line-height: 50px;
+  margin-bottom: 25px;
+    color: #5780d4;
+    text-shadow: -4px -4px 0 #5780d4,
+    2px -2px 0 #3c6ccd,
+    -2px 2px 0 #3c6ccd,
+    2px 2px 0 #5780d4;
+}
+
+.rocks-quote, .quote-contact{
+    font-style: normal;
+    font-weight: 600;
+    text-shadow: -1px -1px 0 #3c6ccd,
+    1px -1px 0 #3c6ccd,
+    -1px 1px 0 #3c6ccd,
+    1px 1px 0 #3c6ccd;
+	font-size: 18px;
+}
+
+/*----------Media Queries------------*/
+
+
+/*-----mobile screens----------*/
+
+@media screen and (min-width: 300px){
+	section#contact{
+		height: 105vh;
+	}
+	.contact-head {
+	margin-left: -1%
+}
+	.intro-heading {
+	margin: -35px;
+}
+	p.bio {
+        padding: 10% 25% 5% 0;
+		float: right;
+		margin-right: -10%;
+		margin-left: 20%;
+    }
+	.personal-profile {
+	margin-right: 8%;
+}
+	.education-profile {
+	margin-right: -6%;
+}
+}
+
+
+@media screen and (min-width: 330px){
+	
+    .personal-profile {
+    margin-top: -5%;;
+    display: block;
+    padding: 0 15% 5% 15%;
+    float: inherit;
+}
+    .bio {
+    float: inherit;
+    text-decoration: none;
+    text-align: left;
+    display:inline;
+}
+    .education-profile {
+    float:inherit;
+    margin-left: 5%;
+}
+    .degrees {
+    text-align:center;
+    float:inherit;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+    .contact-head {
+    float: inherit;
+    margin-right: 15%;
+    margin-left: 20%;
+}
+    #modal5Pic{
+        width: 400px;
+    }
+    #modal7Pic{
+        width: 400px;
+    }
+	section#contact {
+	overflow: hidden;
+	height: 100vh;
+}
+	.contact-details {
+	margin: auto;
+}
+	section#contact{
+		height: 200vh;
+	}
+}
+
+@media screen and (min-width: 355px){
+	section#contact{
+		height: 100vh;
+	}
+	p.bio {
+        padding: 0% 25% 5% 0;
+		float: right;
+		margin-right: -10%;
+		margin-left: 20%;
+    }
+}
+
+
+@media screen and (min-width: 400px){
+	section#contact{
+		height: 80vh;
+	}
+	.education-profile {
+	margin-left: 10%;
+}
+	p.bio{
+		display: table-row;
+	}
+}
+
+@media screen and (min-width:567px){
+    #modal1Pic{
+    height: 280px;
+}
+    #modal3Pic{
+        height: 244px;
+    }
+    #modal4Pic{
+        height: 300px;
+    }
+    #modal5Pic{
+        height: 300px;
+    }
+    #modal7Pic{
+        height: 300px;
+    }
+    .education-profile{
+        margin-left: 22%;
+    }
+    .personal-profile{
+        float: inherit;
+        padding-left: 22%;
+        margin-top: -5%;
+    }
+    p.bio {
+        padding: 0% 25% 5% 0;
+		float: right;
+		margin-right: -10%;
+		margin-left: 20%;
+    }
+	section#contact{
+		height: 200vh;
+	}
+}
+
+@media screen and (min-width: 620px){
+    .education-profile{
+        margin-left: 50%;
+    }
+    #modal1Pic{
+        height: 300px;
+    }
+    .contact-details{
+        margin: auto;
+    }
+    .personal-profile{
+        margin-top: -5%;
+    }
+    .bio{
+        text-align: left;
+    }
+	section#contact{
+		height: 140vh;
+	}
+}
+
+@media screen and (min-width: 635px){
+	section#contact{
+		height: 160vh;
+	}
+	p.bio {
+        padding: 0% 25% 5% 0;
+		float: right;
+		margin-right: -10%;
+		margin-left: 20%;
+    }
+	#modal2Pic {
+	height: 270px;
+	width: 300px;
+}
+	.team-member img {
+	width: 120px;
+	height: 150px;
+}
+}
+
+@media screen and (min-width: 666px){
+	#modal2Pic {
+	height: 300px;
+}
+}
+
+/*------Tablet Screens-----*/
+
+@media screen and (min-width: 700px){
+    .education-profile {
+    margin-left: 55%;
+}
+    .degrees{
+        text-align: left;
+    }
+    #modal1Pic {
+        height: 312px;
+    }
+    #modal2Pic {
+        height: 312px;
+        width: 334px;
+    }
+    #modal3Pic{
+        height: 276px;
+    }
+    #modal4Pic{
+        width: 332px;
+    }
+    #modal5Pic{
+        height: 308px;
+    }
+    #modal6Pic{
+        height: 306px;
+        width: 334px;
+    }
+    #modal7Pic{
+        height: 300px;
+        width: 400px;
+    }
+    .contact-details{
+        margin: auto;
+    }
+    .personal-profile{
+        margin-top: -5%;
+    }
+    .bio{
+        text-align: left;
+        padding-left: -5%;
+    }
+	section#contact{
+		height: 140vh;
+	}
+}
+
+@media screen and (min-width: 767px){
+	section#contact{
+		height: 50vh;
+		background-attachment: scroll;
+	}
+	#modal2Pic {
+	width: 400px;
+}
+	.team-member img {
+	width: 150px;
+	height: 200px;
+}
+	p.bio{
+		text-align: left;
+		display:table-row;
+	}
+	header.masthead{
+		padding: 100px;
+		background-attachment: scroll;
+	}
+}
+
+@media screen and (min-width:768px){
+    #modal1Pic, #modal3Pic, #modal4Pic, #modal7Pic {
+        height: 250px;
+    }
+    #modal5Pic{
+        height: 275px;
+    }
+    .education-profile {
+    margin-left: 25%;
+    margin-top: 25%;
+}
+    .contact-details{
+        margin-bottom: 0;
+}
+    .contact-head{
+        margin-top: -10%;
+    }
+    .personal-profile{
+        margin-top: -5%;
+    }
+	
+    p.bio {
+        padding: 0% 25% 5% 0;
+		float: right;
+		margin-right: -100%;
+		margin-left: 20%;
+    }
+	
+	section#contact{
+		height: 50vh;
+		background-attachment: scroll;
+	}
+	
+	.team-member img {
+	width: 150px;
+	height: 200px;
+}
+	
+	#modal2Pic {
+	height: 220px;
+}
+	header.masthead{
+		background-attachment: scroll;
+	}
+}
+
+@media screen and (min-width:800px){
+	header.masthead{
+		padding: inherit;
+		background-attachment: scroll;
+	}
+	
+    #modal2Pic{
+        height: 220px;
+        width: 300px;
+    }
+    #modal4Pic{
+        height: 280px;
+    }
+    #modal6Pic{
+        height: 218px;
+    }
+    .contact-head {
+    float: inherit;
+    margin-right: 15%;
+    margin-left: 25%;
+}
+    .personal-profile{
+        margin-top: -5%
+    }
+    .bio{
+        float: inherit;
+        display: inline-grid;
+        text-align: left;
+        margin-left: 10%;
+    }
+	section#contact{
+		height: 150vh;
+	}
+}
+
+@media screen and (min-width: 850px){
+    #modal2Pic{
+        width: 400px;
+    }
+    #modal6Pic{
+        height: 244px;
+        width: 400px;
+    }
+    .personal-profile{
+        margin-top: -5%
+    }
+    .bio{
+        float: inherit;
+        display: inline-grid;
+        text-align: left;
+        margin-right: -350%;
+    }
+}
+
+@media screen and (min-width: 872px){
+    #modal1Pic{
+        height: 280px;
+    }
+    .personal-profile{
+        margin-top: -5%
+    }
+    .bio{
+        float: inherit;
+        display: inline-grid;
+        margin-right: -350%;
+    }
+}
+
+/*------Desktop screens and above ------*/
+
+@media screen and (min-width: 900px){
+    .contact-head {
+    float: right;
+    margin-left: 30%;
+}
+    #modal2Pic{
+        height: 222px;
+    }
+    #modal5Pic{
+        height: 279px; 
+    }
+    #modal6Pic{
+        height: 250px;
+    }
+    .education-profile {
+    margin-top: 10%;
+}
+    .personal-profile{
+        margin-top: -5%
+    }
+    .bio{
+        float: inherit;
+        display: inline-grid;
+        margin-right: -350%;
+    }
+}
+
+@media screen and (min-width: 921px){
+    #modal2Pic{
+        height: 250px;
+    }
+    .personal-profile{
+        margin-top: -5%
+    }
+    .bio{
+        float: inherit;
+        display: inline-grid;
+        margin-right: -350%;
+    }
+    #modal6Pic{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 957px){
+    #modal3Pic{
+        height: 277px;
+    }
+    .personal-profile{
+        margin-top: -5%
+    }
+    .bio{
+        float: inherit;
+        display: inline-grid;
+        margin-right: -350%;
+    }
+    #modal6Pic{
+        width: 288px;
+    }
+}
+
+@media screen and (min-width: 979px){
+    #modal6Pic{
+        height: 278px;
+        width: 300px;
+    }
+    #modal4Pic{
+        width: 300px;
+    }
+    .personal-profile{
+        margin-top: -5%
+    }
+    .bio{
+        float: inherit;
+        display: inline-grid;
+        margin-right: -350%;
+    }
+	header.masthead{
+		background-attachment: scroll;
+	}
+}
+
+@media screen and (min-width: 992px){
+    #modal2Pic{
+        height: 278px;
+    }
+    .personal-profile{
+        float: right;
+        margin-top: 0;
+}
+    p.bio{
+        display: block;
+        text-align: left;
+        margin: inherit;
+        padding: inherit;
+    }
+	
+	.team-member img {
+	height: 200px;
+	width: 200px;
+}
+	
+	section#contact{
+		height: 50vh;
+	}
+	h2.section-heading.text-uppercase.contact{
+		margin-top: 80px;
+	}
+}
+
+@media screen and (min-width: 1020px){
+    #modal4Pic{
+        width: 310px;
+    }
+    #modal6Pic{
+        width: 310px;
+    }
+    .contact-head {
+        margin-top: -10%;
+}
+    .education-profile{
+        float: right;
+    }
+    .degrees {
+    text-align:left;
+    float:left;
+    margin-left: 10%;
+}
+    .contact-details{
+        margin-top: 20%;
+    }
+    .personal-profile{
+        float: right;
+        margin-top: 0;
+}
+        p.bio {
+		margin-right: 10%;
+		margin-left: auto;
+    }
+	section#contact{
+		height: 85vh;
+	}
+}
+
+@media screen and (min-width: 1050px){
+    .contact-head{
+        margin-left: 35%;
+    }
+    .education-profile{
+        margin-top: 5%;
+    }
+    .contact-details{
+        margin-top: 20%;
+    }
+    #modal6Pic{
+        width: 400px;
+    }
+    .personal-profile{
+        float: right;
+        margin-top: 0;
+}
+
+@media screen and (min-width:1100px){
+    .contact-details{
+        padding-bottom: 10%;
+    }
+    #modal4Pic{
+        width: 400px;
+    }
+    #modal6Pic{
+        width: 400px;
+    }
+    .personal-profile{
+        float: right;
+        margin-top: 0;
+    }
+    .bio{
+        margin: auto;
+        padding: inherit;
+    }
+    #modal3Pic{
+        height: 250px;
+        width: 400px;
+    }
+	section#contact{
+		height: 100vh;
+	}
+}
+
+	@media screen and (min-width:1300px){
+		section#contact{
+			height: 95vh;
+		}
+	}
+	@media screen and (min-width:1500px){
+		section#contact{
+			height: 100vh;
+		}
+	}
+	@media screen and (min-width:1700px){
+		section#contact{
+			height: 100vh;
+		}
+	}
+
+
+
